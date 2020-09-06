@@ -10,9 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
   
 steps:
-
-  - task: PowerShell@2
 - task: PowerShell@2
-  inputs:
   inputs:
     filePath: 'firstpipeline.ps1'
